@@ -1,7 +1,5 @@
-Subject: vercel.json SPA config
-
 {
-"rewrites": [
-{ "source": "/(.*)", "destination": "/index.html" }
-]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
