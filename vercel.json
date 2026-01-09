@@ -1,9 +1,7 @@
+Subject: vercel.json SPA config
+
 {
-  "version": 2,
-  "builds": [
-    { "src": "dist/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/dist/index.html" }
-  ]
+"rewrites": [
+{ "source": "/(.*)", "destination": "/index.html" }
+]
 }
