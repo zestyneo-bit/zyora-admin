@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
-// Your Firebase project config
+// Correct Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyBF6wac1nEgBFwEWh5rVE2w0gIs2PWfnNY",
   authDomain: "zyora-86720.firebaseapp.com",
@@ -15,7 +15,7 @@ const firebaseConfig = {
   measurementId: "G-8C1PT5ZCK3"
 };
 
-// Initialize Firebase
+// Init Firebase
 const app = initializeApp(firebaseConfig);
 
 // Export services
